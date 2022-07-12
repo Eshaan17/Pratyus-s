@@ -5,6 +5,14 @@ body {
 
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 .color {
     color: orange;
 }
@@ -42,14 +50,19 @@ body {
 
 #mid {
     display: flex;
-    width: 100%;
-    padding: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
 }
 
 .midcss img {
-    width: 65%;
-    padding: 3%;
-    margin-right: 20px;
+    width: 160%;
+    border: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+
 }
 
 .midcss2 h1 {
@@ -58,12 +71,14 @@ body {
 }
 
 .midcss2 {
-    padding: 5%;
+    padding: 8%;
+    padding-right: 2%;
 
 }
 
 .midcss {
-    margin-left: 5%;
+    padding: 10%;
+
 }
 
 .cr {
@@ -81,13 +96,13 @@ body {
     padding: 1%;
 }
 
-#works {
-    display: flex;
-}
+
 
 .font {
     font-weight: 600;
     font-size: 50px;
+    margin-left: 5%;
+    padding: 3%;
 
 }
 
@@ -102,4 +117,72 @@ body {
 .font3 {
     font-size: 30px;
     font-weight: 700;
+}
+
+.des {
+    text-align: justify;
+}
+
+.mom1 {
+    display: flex;
+    background-color: peachpuff;
+
+}
+
+.mom2 {
+    display: flex;
+    background-color: peachpuff;
+
+}
+
+.cdiv {
+    width: 50%;
+}
+
+.works {
+
+    padding: 10x;
+    border: 5%;
+
+}
+
+.xpmom {
+    display: flex;
+
+}
+
+.exp1 {
+    border-left: 7px solid rgb(14, 201, 235);
+    border-radius: 2%;
+    box-shadow: 10px 20px 40px gray;
+    padding: 20px;
+    width: 40%;
+    margin: 5%;
+
+}
+
+.exp2 {
+    border-left: 7px solid tomato;
+    border-radius: 2%;
+    box-shadow: 10px 20px 40px gray;
+    padding: 20px;
+    width: 40%;
+    margin: 5%;
+}
+
+.orange {
+    color: orangered;
+}
+
+.expbl {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.foot {
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+    background-color: slategrey;
 }
