@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     margin: 0%;
 
 }
@@ -37,4 +38,68 @@ body {
     border-radius: 10px;
     background-color: tomato;
     font-size: 15px;
+}
+
+#mid {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+}
+
+.midcss img {
+    width: 65%;
+    padding: 3%;
+    margin-right: 20px;
+}
+
+.midcss2 h1 {
+    color: rgb(201, 18, 18);
+
+}
+
+.midcss2 {
+    padding: 5%;
+
+}
+
+.midcss {
+    margin-left: 5%;
+}
+
+.cr {
+    color: tomato;
+    font-weight: 600;
+}
+
+.cr {
+    color: tomato;
+}
+
+#works img {
+
+    width: 80%;
+    padding: 1%;
+}
+
+#works {
+    display: flex;
+}
+
+.font {
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+.fontmid {
+    font-size: 50px;
+}
+
+.fontmid2 {
+    font-size: 30px;
+}
+
+.font3 {
+    font-size: 30px;
+    font-weight: 700;
 }
